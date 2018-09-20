@@ -1,0 +1,29 @@
+body{
+    margin:0 5;
+    padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+}
+.display-input{
+    
+    color:black;
+    padding:20px;
+    text-align:center;
+    margin:0 auto;
+    border-radius:10%;
+    
+}
+.display-math{
+    background-color: rgb(133, 150, 207);
+    text-align:center;
+    margin:0 auto;
+}
+
+.display-output{
+    
+    color:black;
+    padding:20px;
+    text-align:center;
+    margin:0 auto;
+    border-radius:5%;
+}

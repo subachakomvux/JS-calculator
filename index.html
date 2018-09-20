@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator by Subarna</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form id="form-input" class=" text-center" style="border: black">
+        <h1 style= "background-color:burlywood; border:5px solid black">Welcome to Subarna's calculator</h1>
+        <div class="col-12">
+            <div class="display-input">
+                <h2>Enter a number :</h2>
+                <input type="number" id="Num1">
+                <h2>Enter another number :</h2>
+                <input type="number" id="Num2">
+            </div>
+            <div class="display-math col-lg-6">
+                <h2>Click on any one button</h2>
+                <button type="submit" id="to-add" class="btn btn-primary">Add</button>
+                <button type="submit" id="to-subtract" class="btn btn-primary">Subtract</button>
+                <button type="submit" id="to-multiply" class="btn btn-primary">Multiply</button>
+                <button type="submit" id="to-divide" class="btn btn-primary">Divide</button>
+            </div>
+            <div class="display-output">
+                <h2 class="display-mesg">The result is :</h2>
+                <h2 class=" col-6 offset-md-3 display-result" style="background-color: azure"></h2>
+            </div>
+        </div>
+        
+    </form>
+
+</body>
+<script src="app.js"></script>
+
+</html>
